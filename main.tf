@@ -26,6 +26,7 @@ resource "azurerm_resource_group" "myrg" {
   tags = local.comman_tags
 }
 
+
 resource "azurerm_virtual_network" "VNET" {
   name                = "Dev-vnet"
   location            = var.location
